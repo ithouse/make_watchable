@@ -10,9 +10,9 @@ class MakeWatchableGenerator < Rails::Generators::Base
     @source_root ||= File.dirname(__FILE__) + '/templates'
   end
 
-  def self.next_migration_number(path)
-    ActiveRecord::Generators::Base.next_migration_number(path)
-  end
+  #def self.next_migration_number(path)
+  #  ActiveRecord::Generators::Base.next_migration_number(path)
+  #end
 
   def generate_migration
     migration_template 'migration.rb', 'db/migrate/create_make_watchable_tables'

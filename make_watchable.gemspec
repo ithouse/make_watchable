@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Kai Schlamp"]
   s.email       = ["schlamp@gmx.de"]
   s.homepage    = "http://github.com/medihack/make_watchable"
-  s.summary     = "Rails 3 flagging extension"
-  s.description = "A user-centric watching extension for Rails 3 applications."
+  s.summary     = "Rails 4 flagging extension"
+  s.description = "A user-centric watching extension for Rails 4 applications."
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "make_watchable"
