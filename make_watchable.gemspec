@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activerecord>, ["~> 4.0.0"])
+      s.add_runtime_dependency(%q<activerecord>, [">= 4.0.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.3.5"])
       s.add_development_dependency(%q<rspec>, ["~> 2.5.0"])
       s.add_development_dependency(%q<database_cleaner>, ["= 0.6.7.RC"])
@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<generator_spec>, ["~> 0.9.0"])
       s.add_development_dependency(%q<rake>, ["= 0.8.7"])
     else
-      s.add_dependency(%q<activerecord>, ["~> 4.0.0"])
+      s.add_dependency(%q<activerecord>, [">= 4.0.0"])
       s.add_dependency(%q<bundler>, ["~> 1.3.5"])
       s.add_dependency(%q<rspec>, ["~> 2.5.0"])
       s.add_dependency(%q<database_cleaner>, ["= 0.6.7.RC"])
